@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">ABDULRAHEEM MUHAMMED</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-content">
+            <p class="tagline"><span class="typing-effect"></span></p>
+        </div>
+    </header>
+
+    <section class="about hidden" id="about">
+        <div class="container about-content">
+            <img src="./Images/Screenshot_2024-09-16_021051-removebg-preview.png" alt="Your Picture" class="profile-image">
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Muhammed, a frontend developer with a passion for creating responsive, user-friendly websites using HTML, CSS, JavaScript, and React.
+                    I’m currently exploring ethical hacking and cybersecurity to enhance web security and improve my backend skills.
+                    I enjoy contributing to open-source projects and collaborating with developers. As a frontend intern, I’m excited to grow my skills and contribute to impactful projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills hidden" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Ethical Hacking</li>
+                <li>Database</li>
+                <li>and more...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects hidden" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="./Images/number-Quessing.png" alt="Number Guessing" class="project-image">
+                    <h3>Number Guessing</h3>
+                    <p>A simple website built with html and css where users guess a number to find a secret number and will let them know if there guess is right or wrong.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./Images/responsive-form.png" alt="Registration Form" class="project-image">
+                    <h3>Registration Form</h3>
+                    <p>A beautiful and Registration form built with HTML and CSS Where users can register and sign up to a website</p>
+                </div>
+                <div class="project-card">
+                    <img src="./Images/E learning.png" alt="E-Learning Platform" class="project-image">
+                    <h3>E-Learning Platform</h3>
+                    <p>A fully functional e-learning website featuring a variety of courses and interactive learning elements. This project showcases my expertise in Html, CSS and JavaScript, focusing on a user-centric design and robust functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact hidden" id="contact">
+        <div class="container contact-content">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fa fa-envelope"></i> <a href="mufaariq@email.com">mufaariq@email.com</a></p>
+                <p><i class="fa fa-phone"></i> <a href="tel:+">call/whatsApp</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 mufaariq. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
